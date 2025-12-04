@@ -1,0 +1,17 @@
+ .notification {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 30vw;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: red; 
+}
+
+.notif-content > h1  {
+    font-size: 1.2rem;
+}
+
+.notif-content > p {
+    font-size: .6rem;
+}
