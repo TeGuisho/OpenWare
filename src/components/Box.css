@@ -1,0 +1,6 @@
+.Box{
+    position : absolute;
+    z-index: 1;
+    top: 19%;
+    right: 2%;
+}

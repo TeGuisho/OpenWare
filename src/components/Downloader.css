@@ -1,0 +1,29 @@
+.downloader {
+
+    top:20%;
+    left: 20%;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+}
+
+.os-card {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.os-card > img {
+    height: 50%;
+}
+
+.os-card > h1 {
+    font-size: 1.2rem;
+    color: black;
+}

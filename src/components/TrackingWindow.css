@@ -1,0 +1,45 @@
+.tracking {
+    position: relative;
+    
+    width: 40%;
+    height: 60%;
+    left: 10%;
+    top: 30%;
+    border-radius: 10px;
+    background-color: #0a0a0a ;
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+}
+
+
+.subs-header-track {
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subs-header-track > * {
+    margin: 0 20px 0;
+}
+
+.raclette {
+    object-fit: cover;
+    z-index: 0;
+}
+
+.legend-tracker {
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+    z-index: 1;
+    font-size: .6rem;
+    color: red;
+}
+
+.legend-tracker>span {
+    font-size: .9rem;
+}
