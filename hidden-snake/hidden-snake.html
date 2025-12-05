@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Nuit de l'Info – Hidden Snake</title>
+    <link rel="stylesheet" href="hidden-snake.css" />
+</head>
+<body>
+<div class="hs-page-wrapper">
+    <div class="hs-card">
+        <div class="hs-card-glow"></div>
+        <div id="hs-cat-overlay">🐱</div>
+
+        <h2 class="hs-title" data-glitch="Hidden Snake Protocol">
+            Hidden Snake Protocol
+        </h2>
+
+        <p class="hs-subtitle">
+            Tu as percé le secret. Le serpent de la Nuit s'éveille…
+        </p>
+
+        <div class="hs-badge">
+            <span>🐍 Snake secret de la mort qui tue de UWAWA FANCLUB</span>
+            <span>↑ ↓ ← → • Espace • P</span>
+        </div>
+
+        <div class="hs-grid">
+            <canvas id="hidden-snake-canvas" width="420" height="420"></canvas>
+
+            <div class="hs-score">
+                <span>Score&nbsp;: <strong id="hs-score">0</strong></span>
+                <span>Speed&nbsp;: <strong id="hs-speed">1</strong></span>
+                <span>Meilleur&nbsp;: <strong id="hs-best">0</strong></span>
+            </div>
+
+            <p class="hs-help">
+                Flèches pour bouger. Espace pour démarrer / rejouer. P pour pause.<br />
+                Parfois, la réalité se plie un peu.
+            </p>
+
+            <details class="hs-rules">
+                <summary>Règles & anomalies</summary>
+                <ul>
+                    <li>Pomme normale (orange) = +1 point.</li>
+                    <li>Pomme dorée = +5 points, vague lumineuse et message spécial.</li>
+                    <li>Pomme violette = fruit faux : pas de point, glitch + contrôles miroir quelques secondes.</li>
+                    <li>Les fruits apparaissent toujours en dehors du serpent.</li>
+                    <li>Au-delà d’un certain score, le serpent semble « survolté ».</li>
+                    <li>Parfois, un regard traverse l’écran. Ignore-le. Ou pas.</li>
+                </ul>
+            </details>
+        </div>
+
+        <div class="hs-actions">
+            <button class="hs-btn hs-btn-secondary" id="hs-pause-btn">Pause</button>
+            <button class="hs-btn" id="hs-restart-btn">Rejouer</button>
+        </div>
+
+        <div class="hs-footer">
+            Nuit de l’Info – Hidden Snake • v4.0
+        </div>
+    </div>
+</div>
+
+<script src="hidden-snake.js" defer></script>
+</body>
+</html>
