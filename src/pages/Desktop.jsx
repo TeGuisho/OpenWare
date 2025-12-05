@@ -1,20 +1,14 @@
-import React from "react";
-
-import Alice from "../components/Alice.jsx";
-import Back from "../components/Back.jsx";
 import "./Desktop.css";
-import Box from "../components/Box.jsx";
-import Laptop from "../components/Laptop.jsx";
-import Phone from "../components/Phone.jsx";
 
+import {Alice, Box, Laptop, Phone, Background} from '../components/index.jsx';
 export default function Desktop() {
     return(
         <div className="Desktop">
-            <Back/>
-            <Alice/>
+            <Background/>
             <Box/>
-            <Laptop/>
             <Phone/>
+            <Laptop/>
+            <Alice/>
         </div>
     )
 }

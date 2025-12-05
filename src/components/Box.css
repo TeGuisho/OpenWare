@@ -1,7 +1,6 @@
 .Box{
-    display: absolute;
-    position : relative;
+    position : absolute;
     z-index: 1;
-    bottom : 89em;
-    left : 21em;
+    top: 19%;
+    right: 2%;
 }

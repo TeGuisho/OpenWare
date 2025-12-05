@@ -1,7 +1,5 @@
 .Alice {
-    display: absolute;
-    position : relative;
-    z-index: 1;
-    bottom: 43em;
-    left : 7em;
+    position : absolute;
+    bottom: -0%;
+    left : 150px;
 }
