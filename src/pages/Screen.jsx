@@ -1,11 +1,10 @@
-import { Notification } from '../components/index';
-import './Screen.css';
-
+import { Monitor } from '../components/index';
+import './Screen.css'
 
 export default function Screen() {
     return (
         <div className="screen">
-            <Notification/>
+            <Monitor/>
         </div>
     );
 }
