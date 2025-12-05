@@ -1,0 +1,7 @@
+.Laptop {
+    display: absolute;
+    position : relative;
+    z-index: 2;
+    bottom : 50em;
+    right: 4em;
+}

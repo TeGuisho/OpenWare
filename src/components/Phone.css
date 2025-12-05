@@ -1,0 +1,8 @@
+.Phone {  
+    display: absolute;
+    position : relative;
+    z-index: 2;
+    bottom : 78em;
+    right : 28em;
+   
+}
