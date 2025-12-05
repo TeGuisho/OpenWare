@@ -3,6 +3,8 @@ export {default as Monitor} from './Monitor';
 export {default as SubscribingWindow} from './SubscribingWindow';
 export {default as TrackingWindow} from './TrackingWindow';
 export {default as Downloader} from './Downloader';
+export {default as GoToDesktop} from './GoToDesktop';
+export {default as GoToScreen} from './GoToScreen';
 
 export {default as Alice} from './Alice';
 export {default as Back} from './Back';

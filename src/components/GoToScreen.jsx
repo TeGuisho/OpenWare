@@ -1,13 +1,13 @@
 import './GoToDesktop.css';
 import {  useNavigate } from "react-router-dom";
 
-export default function GoToDesktop() {
+export default function GoToScreen() {
     const navigate = useNavigate();
-    function GoDesktop() {
-      navigate("/");
+    function GoToScreen() {
+      navigate("/screen");
     }
     return (
-        <div className="gotodesktop" onClick={GoDesktop}>
+        <div className="gotoscreen" onClick={GoToScreen}>
             Screen
         </div>
     );

@@ -1,6 +1,6 @@
 import "./Desktop.css";
 
-import {Alice, Box, Laptop, Phone, Background} from '../components/index.jsx';
+import {Alice, Box, Laptop, Phone, Background, GoToScreen} from '../components/index.jsx';
 export default function Desktop() {
     return(
         <div className="Desktop">
@@ -9,6 +9,7 @@ export default function Desktop() {
             <Phone/>
             <Laptop/>
             <Alice/>
+            <GoToScreen/>
         </div>
     )
 }
