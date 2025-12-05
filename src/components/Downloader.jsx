@@ -10,7 +10,7 @@ export default function Downloader() {
             </div>
             <div className="os-card">
                 <img src="/src/assets/img/windowslogo.png" alt="logo de windows" />
-                <h1>Télécharger Linux</h1>
+                <h1>Télécharger Windows</h1>
             </div>
         </div>
     );
